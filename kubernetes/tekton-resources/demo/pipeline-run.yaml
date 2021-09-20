@@ -17,5 +17,5 @@ spec:
       claimName: kaniko-source-pvc
   - name: docker-secrets
     secret:
-      secretName: secret-dockerconfigjson
+      secretName: regcred
 
