@@ -1,0 +1,12 @@
+[
+  {
+    "op": "replace",
+    "path": "/spec/rules/0/verifyImages/0/image",
+    "value": "gcr.io/tekton-releases/github.com/tektoncd/*"
+  },
+  {
+    "op": "replace",
+    "path": "/spec/rules/0/verifyImages/0/key",
+    "value":  "-----BEGIN PUBLIC KEY-----\nMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEnLNw3RYx9xQjXbUEw8vonX3U4+tB\nkPnJq+zt386SCoG0ewIH5MB8+GjIDGArUULSDfjfM31Eae/71kavAUI0OA==\n-----END PUBLIC KEY-----"
+  }
+]

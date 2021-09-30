@@ -1,0 +1,8 @@
+# path: k8s-base/kustomization.template.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- admission-control-verify-image.yaml
+- kaniko-with-cosign.yaml
+- pipeline-run.yaml
+- pipeline.yaml

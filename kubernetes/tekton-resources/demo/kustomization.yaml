@@ -1,0 +1,22 @@
+# path: k8s-base/kustomization.template.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- constraint-templates
+- cosign
+- signing-checker
+namespace: gatekeeper
+commonLabels:
+  app: gatekeeper-demo
+patchesJson6902:
+#Replace image and keys with you custom image or key  
+- target:
+    version: v1
+    kind: ClusterPolicy
+    name: verify-image
+  path: developer-patches/admission-control-verify-image.json
+#- target:
+#    version: v1
+#    kind: Service
+#    name: my-service
+#  path: add_service_annotation.yaml

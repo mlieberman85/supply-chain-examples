@@ -1,0 +1,7 @@
+# path: k8s-base/kustomization.template.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- gatekeeper-constraints-template.yaml 
+##TODO constraints need time for template CRD's to start before they can be applied 
+#- gatekeeper-constraints.yaml 

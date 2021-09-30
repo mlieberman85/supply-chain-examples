@@ -2,17 +2,9 @@
 
 * Generate your own keys, and replace the public keys in admission-control-verify-image.yaml for gcr.io and ttl.sh
 
-`kubectl apply -f admission_control_verify_image.yaml`
+##TODO add moreinfo about replacing keys in various files in developer-patches
 
-## Kaniko builder with cosign
 
-`kubectl apply -f kaniko-with-cosign.yaml`
+## Run build
 
-## Pipeline
-
-`kubectl apply -f pipeline.yaml`
-
-## Pipeline Run
-Note: This uses create vs apply due to name generation
-
-`kubectl create -f pipeline-run.yaml`
+For the sake of simplicity run `update_and_run.sh`. This makes it easy to apply any changes you might make to the pipeline for testing.
