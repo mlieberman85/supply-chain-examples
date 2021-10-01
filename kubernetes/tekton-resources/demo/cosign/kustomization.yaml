@@ -6,3 +6,4 @@ resources:
 - kaniko-with-cosign.yaml
 - pipeline-run.yaml
 - pipeline.yaml
+

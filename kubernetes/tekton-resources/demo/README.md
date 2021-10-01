@@ -2,7 +2,7 @@
 
 * Generate your own keys, and replace the public keys in admission-control-verify-image.yaml for gcr.io and ttl.sh
 
-##TODO add moreinfo about replacing keys in various files in developer-patches
+##TODO add more info about replacing keys in various files in developer-patches
 
 
 ## Run build
