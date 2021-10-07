@@ -17,8 +17,7 @@ This demo assumes the following tools are installed:
   * `cosign` with `sget` ([github](https://github.com/sigstore/cosign))
   * `crane` ([github](https://github.com/google/go-containerregistry/blob/main/cmd/crane/README.md))
   * `cyclonedx` for rust ([github](https://github.com/CycloneDX/cyclonedx-rust-cargo))
-    * ⚠️ [a patch](https://github.com/CycloneDX/cyclonedx-rust-cargo/pull/32) may
-    still me needed:
+
 
 ## Workflow
 
